@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/philip/openrave_stable_version/openrave/cpp-gen-md5/md5.c
+md5.h
+/home/philip/openrave_stable_version/openrave/cpp-gen-md5/md5.h
+string.h
+-
+
+/home/philip/openrave_stable_version/openrave/cpp-gen-md5/md5.h
+

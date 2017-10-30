@@ -1,0 +1,887 @@
+The system is: Linux - 4.4.0-96-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/philip/openrave_stable_version/openrave/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/philip/openrave_stable_version/openrave/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4014511874/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4014511874.dir/build.make CMakeFiles/cmTryCompileExec4014511874.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4014511874.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4014511874.dir/testCCompiler.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4014511874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4014511874.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4014511874.dir/testCCompiler.c.o  -o cmTryCompileExec4014511874 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2566527576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2566527576.dir/build.make CMakeFiles/cmTryCompileExec2566527576.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2566527576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2566527576.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2566527576 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2566527576' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2566527576 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2566527576/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2566527576.dir/build.make CMakeFiles/cmTryCompileExec2566527576.dir/build]
+  ignore line: [make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2566527576]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2566527576.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2566527576 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2566527576' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2566527576 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2566527576] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec2566527576.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2404087054/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2404087054.dir/build.make CMakeFiles/cmTryCompileExec2404087054.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2404087054.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2404087054.dir/testCXXCompiler.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2404087054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2404087054.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2404087054.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2404087054 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec785692469/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec785692469.dir/build.make CMakeFiles/cmTryCompileExec785692469.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec785692469
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec785692469.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec785692469 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec785692469' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec785692469 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec785692469/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec785692469.dir/build.make CMakeFiles/cmTryCompileExec785692469.dir/build]
+  ignore line: [make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec785692469]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec785692469.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec785692469 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec785692469' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec785692469 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec785692469] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec785692469.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test LINKER_HAS_RDYNAMIC succeded with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3397947770/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3397947770.dir/build.make CMakeFiles/cmTryCompileExec3397947770.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3397947770.dir/src.cxx.o
+/usr/bin/c++    -DLINKER_HAS_RDYNAMIC -O3 -DNDEBUG   -rdynamic -o CMakeFiles/cmTryCompileExec3397947770.dir/src.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3397947770
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3397947770.dir/link.txt --verbose=1
+/usr/bin/c++    -DLINKER_HAS_RDYNAMIC -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3397947770.dir/src.cxx.o  -o cmTryCompileExec3397947770 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test LINKER_HAS_BSYMBOLIC succeded with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec309918189/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec309918189.dir/build.make CMakeFiles/cmTryCompileExec309918189.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec309918189.dir/src.cxx.o
+/usr/bin/c++    -DLINKER_HAS_BSYMBOLIC -O3 -DNDEBUG   -Bsymbolic -o CMakeFiles/cmTryCompileExec309918189.dir/src.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec309918189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec309918189.dir/link.txt --verbose=1
+/usr/bin/c++    -DLINKER_HAS_BSYMBOLIC -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec309918189.dir/src.cxx.o  -o cmTryCompileExec309918189 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test LINKER_HAS_BSYMBOLIC_FUNCTIONS succeded with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec335924691/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec335924691.dir/build.make CMakeFiles/cmTryCompileExec335924691.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec335924691.dir/src.cxx.o
+/usr/bin/c++    -DLINKER_HAS_BSYMBOLIC_FUNCTIONS -O3 -DNDEBUG   -Bsymbolic-functions -o CMakeFiles/cmTryCompileExec335924691.dir/src.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec335924691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec335924691.dir/link.txt --verbose=1
+/usr/bin/c++    -DLINKER_HAS_BSYMBOLIC_FUNCTIONS -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec335924691.dir/src.cxx.o  -o cmTryCompileExec335924691 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test LINKER_HAS_VISIBILITY succeded with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2644341341/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2644341341.dir/build.make CMakeFiles/cmTryCompileExec2644341341.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2644341341.dir/src.cxx.o
+/usr/bin/c++    -DLINKER_HAS_VISIBILITY -O3 -DNDEBUG   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec2644341341.dir/src.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2644341341
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2644341341.dir/link.txt --verbose=1
+/usr/bin/c++    -DLINKER_HAS_VISIBILITY -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2644341341.dir/src.cxx.o  -o cmTryCompileExec2644341341 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test LINKER_HAS_VISIBILITY_INLINES_HIDDEN succeded with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1361164583/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1361164583.dir/build.make CMakeFiles/cmTryCompileExec1361164583.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1361164583.dir/src.cxx.o
+/usr/bin/c++    -DLINKER_HAS_VISIBILITY_INLINES_HIDDEN -O3 -DNDEBUG   -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec1361164583.dir/src.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1361164583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1361164583.dir/link.txt --verbose=1
+/usr/bin/c++    -DLINKER_HAS_VISIBILITY_INLINES_HIDDEN -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1361164583.dir/src.cxx.o  -o cmTryCompileExec1361164583 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the function mpfr_div_d exists in the /usr/lib/x86_64-linux-gnu/libmpfr.so passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1094094419/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1094094419.dir/build.make CMakeFiles/cmTryCompileExec1094094419.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1094094419.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mpfr_div_d -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1094094419.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1094094419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1094094419.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mpfr_div_d -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1094094419.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1094094419 -rdynamic -lmpfr 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fpu_control.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3522502996/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3522502996.dir/build.make CMakeFiles/cmTryCompileExec3522502996.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3522502996.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3522502996.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3522502996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3522502996.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3522502996.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3522502996 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1610479170/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1610479170.dir/build.make CMakeFiles/cmTryCompileExec1610479170.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1610479170.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1610479170.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1610479170
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1610479170.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1610479170.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1610479170 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1767298716/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1767298716.dir/build.make CMakeFiles/cmTryCompileExec1767298716.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1767298716.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1767298716.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1767298716
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1767298716.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1767298716.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1767298716 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec129116009/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec129116009.dir/build.make CMakeFiles/cmTryCompileExec129116009.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec129116009.dir/LONG_DOUBLE.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec129116009.dir/LONG_DOUBLE.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CheckTypeSize/LONG_DOUBLE.c
+Linking C executable cmTryCompileExec129116009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec129116009.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec129116009.dir/LONG_DOUBLE.c.o  -o cmTryCompileExec129116009 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test IS_X86_64 succeded with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1711779929/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1711779929.dir/build.make CMakeFiles/cmTryCompileExec1711779929.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1711779929.dir/src.cxx.o
+/usr/bin/c++    -DIS_X86_64 -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1711779929.dir/src.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1711779929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1711779929.dir/link.txt --verbose=1
+/usr/bin/c++    -DIS_X86_64 -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1711779929.dir/src.cxx.o  -o cmTryCompileExec1711779929 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  int main()
+  {
+    int a = 0;
+    int*pa = &a;
+    asm(".intel_syntax\n"
+	"mov %%rax, %0\n"
+    "mov %%eax, [%%rax]\n"
+    ".att_syntax\n"
+    : : "r"(pa) : "%rax");
+    return 0;
+  }
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec50015185/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec50015185.dir/build.make CMakeFiles/cmTryCompileExec50015185.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec50015185.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec50015185.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec50015185
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec50015185.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec50015185.dir/CheckFunctionExists.c.o  -o cmTryCompileExec50015185 -rdynamic -lrt 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2691910530/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2691910530.dir/build.make CMakeFiles/cmTryCompileExec2691910530.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2691910530.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2691910530.dir/CheckSymbolExists.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2691910530
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2691910530.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2691910530.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2691910530 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+File /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function qh_new_qhull exists in the qhull passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1327862854/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1327862854.dir/build.make CMakeFiles/cmTryCompileExec1327862854.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1327862854.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=qh_new_qhull -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1327862854.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1327862854
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1327862854.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=qh_new_qhull -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1327862854.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1327862854 -rdynamic -lqhull 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file qhull/qhull_a.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec140859432/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec140859432.dir/build.make CMakeFiles/cmTryCompileExec140859432.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec140859432.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec140859432.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec140859432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec140859432.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec140859432.dir/CheckIncludeFile.c.o  -o cmTryCompileExec140859432 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3245687646/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3245687646.dir/build.make CMakeFiles/cmTryCompileExec3245687646.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3245687646.dir/HAVE_FLOAT_SIZE.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3245687646.dir/HAVE_FLOAT_SIZE.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CheckTypeSize/HAVE_FLOAT_SIZE.c
+Linking C executable cmTryCompileExec3245687646
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3245687646.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3245687646.dir/HAVE_FLOAT_SIZE.c.o  -o cmTryCompileExec3245687646 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long int passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3391763394/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3391763394.dir/build.make CMakeFiles/cmTryCompileExec3391763394.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3391763394.dir/HAVE_LONG_INT_SIZE.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3391763394.dir/HAVE_LONG_INT_SIZE.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CheckTypeSize/HAVE_LONG_INT_SIZE.c
+Linking C executable cmTryCompileExec3391763394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3391763394.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3391763394.dir/HAVE_LONG_INT_SIZE.c.o  -o cmTryCompileExec3391763394 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2949778572/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2949778572.dir/build.make CMakeFiles/cmTryCompileExec2949778572.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2949778572.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2949778572.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2949778572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2949778572.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2949778572.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2949778572 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtof exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec22262098/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec22262098.dir/build.make CMakeFiles/cmTryCompileExec22262098.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec22262098.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtof -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec22262098.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec22262098
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec22262098.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtof -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec22262098.dir/CheckFunctionExists.c.o  -o cmTryCompileExec22262098 -rdynamic -lm 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtold exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1112822760/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1112822760.dir/build.make CMakeFiles/cmTryCompileExec1112822760.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1112822760.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtold -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1112822760.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1112822760
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1112822760.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtold -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1112822760.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1112822760 -rdynamic -lm 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2522760598/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2522760598.dir/build.make CMakeFiles/cmTryCompileExec2522760598.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2522760598.dir/HAVE_LONG_DOUBLE_SIZE.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2522760598.dir/HAVE_LONG_DOUBLE_SIZE.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CheckTypeSize/HAVE_LONG_DOUBLE_SIZE.c
+Linking C executable cmTryCompileExec2522760598
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2522760598.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2522760598.dir/HAVE_LONG_DOUBLE_SIZE.c.o  -o cmTryCompileExec2522760598 -rdynamic -lm 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3788692442/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3788692442.dir/build.make CMakeFiles/cmTryCompileExec3788692442.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3788692442.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3788692442.dir/CheckIncludeFile.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/4.8/ext/hash_map:60:0,
+                 from /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/4.8/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+Linking CXX executable cmTryCompileExec3788692442
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3788692442.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3788692442.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3788692442 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3003465160/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3003465160.dir/build.make CMakeFiles/cmTryCompileExec3003465160.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3003465160.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3003465160.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3003465160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3003465160.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3003465160.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3003465160 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _init exists in the lapack passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1671597162/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1671597162.dir/build.make CMakeFiles/cmTryCompileExec1671597162.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1671597162.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_init -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1671597162.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1671597162
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1671597162.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_init -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1671597162.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1671597162 -rdynamic -llapack 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_ALL_PYTHON_HEADERS succeded with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2403007393/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2403007393.dir/build.make CMakeFiles/cmTryCompileExec2403007393.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2403007393.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_ALL_PYTHON_HEADERS -DCMAKE_BUILD_TYPE:STRING=Release -O3 -DNDEBUG -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include    -o CMakeFiles/cmTryCompileExec2403007393.dir/src.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:17: warning: missing whitespace after the macro name [enabled by default]
+In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+                 from /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx:10:
+/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+Linking CXX executable cmTryCompileExec2403007393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2403007393.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_ALL_PYTHON_HEADERS -DCMAKE_BUILD_TYPE:STRING=Release -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2403007393.dir/src.cxx.o  -o cmTryCompileExec2403007393 -rdynamic -lpython2.7 -lboost_python -lboost_thread -lboost_system 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+    #include <Python.h>
+    #include <boost/thread/thread.hpp>
+    #include <boost/thread/mutex.hpp>
+    #include <boost/thread/condition.hpp>
+    #include <boost/shared_ptr.hpp>
+    #define PY_ARRAY_UNIQUE_SYMBOL PyArrayHandle
+    #include <boost/python.hpp>
+    #include <pyconfig.h>
+    #include <numpy/arrayobject.h>
+    int main()
+    {
+      return 0;
+    }
+Determining if the include file libswscale/swscale.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2950699258/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2950699258.dir/build.make CMakeFiles/cmTryCompileExec2950699258.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2950699258.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2950699258.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2950699258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2950699258.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2950699258.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2950699258 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libavformat/avformat.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3037355657/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3037355657.dir/build.make CMakeFiles/cmTryCompileExec3037355657.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3037355657.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3037355657.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3037355657
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3037355657.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3037355657.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3037355657 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libavcodec/avcodec.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec78720833/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec78720833.dir/build.make CMakeFiles/cmTryCompileExec78720833.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec78720833.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec78720833.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec78720833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec78720833.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec78720833.dir/CheckIncludeFile.c.o  -o cmTryCompileExec78720833 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAS_AVMEDIA_TYPE_VIDEO succeded with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1260110088/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1260110088.dir/build.make CMakeFiles/cmTryCompileExec1260110088.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1260110088.dir/src.cxx.o
+/usr/bin/c++    -DHAS_AVMEDIA_TYPE_VIDEO -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1260110088.dir/src.cxx.o -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1260110088
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1260110088.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAS_AVMEDIA_TYPE_VIDEO -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1260110088.dir/src.cxx.o  -o cmTryCompileExec1260110088 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #define __STDC_CONSTANT_MACROS
+      #include <stdint.h>
+      #include <libavformat/avformat.h>
+      #include <libavcodec/avcodec.h>
+      int main()
+      {
+	return AVMEDIA_TYPE_VIDEO;
+      }
+Determining if the function dAllocateODEDataForThread exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec125176678/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec125176678.dir/build.make CMakeFiles/cmTryCompileExec125176678.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec125176678.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dAllocateODEDataForThread  -L/usr/lib -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec125176678.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec125176678
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec125176678.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dAllocateODEDataForThread  -L/usr/lib -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec125176678.dir/CheckFunctionExists.c.o  -o cmTryCompileExec125176678 -rdynamic -lode 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec923172670/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec923172670.dir/build.make CMakeFiles/cmTryCompileExec923172670.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec923172670.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec923172670.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec923172670
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec923172670.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec923172670.dir/CheckFunctionExists.c.o  -o cmTryCompileExec923172670 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2970366794/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2970366794.dir/build.make CMakeFiles/cmTryCompileExec2970366794.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2970366794.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2970366794.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2970366794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2970366794.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2970366794.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2970366794 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2679163655/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2679163655.dir/build.make CMakeFiles/cmTryCompileExec2679163655.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2679163655.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2679163655.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2679163655
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2679163655.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2679163655.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2679163655 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2053775445/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2053775445.dir/build.make CMakeFiles/cmTryCompileExec2053775445.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2053775445.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2053775445.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2053775445
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2053775445.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2053775445.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2053775445 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3062711003/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3062711003.dir/build.make CMakeFiles/cmTryCompileExec3062711003.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3062711003.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3062711003.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3062711003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3062711003.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3062711003.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3062711003 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1964348101/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1964348101.dir/build.make CMakeFiles/cmTryCompileExec1964348101.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1964348101.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1964348101.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1964348101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1964348101.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1964348101.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1964348101 -rdynamic -lICE 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/Xlib.h exists passed with the following output:
+Change Dir: /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2978907619/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2978907619.dir/build.make CMakeFiles/cmTryCompileExec2978907619.dir/build
+make[1]: Entering directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2978907619.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2978907619.dir/CheckIncludeFile.c.o   -c /home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2978907619
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2978907619.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2978907619.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2978907619 -rdynamic 
+make[1]: Leaving directory `/home/philip/openrave_stable_version/openrave/build/CMakeFiles/CMakeTmp'
+
+
